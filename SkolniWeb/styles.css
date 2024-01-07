@@ -1,0 +1,24 @@
+.panel {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+
+/* Custom styles for the full-screen background image */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Images/backgroundImage.jpg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+    color: #fff; /* Text color */
+}
+
+.jumbotron {
+    background-color: transparent;
+}
